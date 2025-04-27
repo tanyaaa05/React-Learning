@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Namaste React 🚀
 
 - # Parcel -
