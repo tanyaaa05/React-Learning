@@ -1,0 +1,30 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is Learning React by Tanya Singh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/tanyaaa05/React-Learning.git)"
+  },
+  "keywords": [
+    "react",
+    "Learning"
+  ],
+  "author": "Tanya Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}

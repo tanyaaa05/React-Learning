@@ -1,4 +1,4 @@
-<!-- Task(04): Make a separate JavaScript -->
+<!-- Task(05): Remove cdn Links -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,21 +12,14 @@
     <h1>Top of the root.</h1>
 
 
-    <div id="root">
-
+    <div id="root" class="root">
         <h1>Tanya is here</h1>
     </div>
 
     <h1>Below of the root.</h1>
 
 
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-
-
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 
 </body>
 </html>
