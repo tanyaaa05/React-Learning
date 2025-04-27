@@ -1,0 +1,21 @@
+// Step 1: Create a React Element
+// React.createElement(tagName, props, content)
+// ➔ It tells React: "Please make a virtual <h1> element with no special properties, and with the text 'Hello World from React'."
+// ➔ It's like making a small box in memory that holds our HTML content.
+const heading = React.createElement(
+ "h1",
+  { id: "heading"},
+  "Hello World from React");
+
+
+// Step 2: Find the place in the real HTML page where we want to put React things
+// ReactDOM.createRoot(container)
+// ➔ It needs an actual HTML element (like <div id="root"></div>) to attach React to it.
+// ➔ document.getElementById("root") finds the div with id="root"
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+// Step 3: Render (show) the React element inside the real HTML page
+// root.render(what_to_show)
+// ➔ It takes our heading (the box we made) and puts it inside the div in the webpage.
+root.render(heading);
